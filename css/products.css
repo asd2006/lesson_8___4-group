@@ -1,0 +1,128 @@
+.product {
+  padding-left: 132px;
+  padding-right: 132px;
+}
+
+.product .product__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product .product__box .product__box__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+
+.product .product__box .product__box__link {
+  font-family: "Roboto";
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #146eb4;
+}
+
+.product .product__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product .product__list .product__item:hover {
+  background-color: #fff;
+  box-shadow: 5px 4px 2px 12px rgba(35, 47, 62, 0.16);
+}
+
+.product .product__list .product__item:hover .product__button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.product .product__list .product__item {
+  background: rgba(242, 242, 242, 0.4);
+  width: 279px;
+  height: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product .product__list .product__item .product__item__text-1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #000;
+}
+
+.product .product__list .product__item .product__item__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(35, 47, 62, 0.48);
+}
+
+.product .product__list .product__item .product__star__box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product .product__list .product__item .product__star__box .product__star__text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13px;
+  color: #146eb4;
+}
+
+.product .product__list .product__item .product__star__box .product__star__image {
+  width: 150x;
+}
+
+.product .product__list .product__item .product__button {
+  display: none;
+}
+
+.product .product__list .product__item .product__button .product__button_1 {
+  background-color: #146eb4;
+  border: #146eb4;
+  padding: 9px 27px;
+}
+
+.product .product__list .product__item .product__button .product__button_2 {
+  background: #fff;
+  font-weight: 500;
+  font-family: "Roboto";
+  padding: 9px 27px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #146eb4;
+  border: 1px solid #146eb4;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 400px;
+  }
+  .product {
+    padding: 10px;
+  }
+  .product__list {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=products.css.map */
